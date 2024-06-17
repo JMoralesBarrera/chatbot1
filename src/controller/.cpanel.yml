@@ -1,6 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/tuxmlcom/public_html
+    - export DEPLOYPATH=/home2/tuxmlcom/public_html
     - /bin/cp -r * $DEPLOYPATH
-  
